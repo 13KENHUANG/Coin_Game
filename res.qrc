@@ -1,0 +1,40 @@
+<RCC>
+    <qresource prefix="/">
+        <file>res/BackButton.png</file>
+        <file>res/BackButtonSelected.png</file>
+        <file>res/BackButtonSound.wav</file>
+        <file>res/BoardNode.png</file>
+        <file>res/Coin0001.png</file>
+        <file>res/Coin0002.png</file>
+        <file>res/Coin0003.png</file>
+        <file>res/Coin0004.png</file>
+        <file>res/Coin0005.png</file>
+        <file>res/Coin0006.png</file>
+        <file>res/Coin0007.png</file>
+        <file>res/Coin0008.png</file>
+        <file>res/ConFlipSound.wav</file>
+        <file>res/LevelCompletedDialogBg.png</file>
+        <file>res/LevelIcon.png</file>
+        <file>res/LevelWinSound.wav</file>
+        <file>res/MenuSceneBg.png</file>
+        <file>res/MenuSceneStartButton.png</file>
+        <file>res/OtherSceneBg.png</file>
+        <file>res/PlayLevelSceneBg.png</file>
+        <file>res/TapButtonSound.wav</file>
+        <file>res/Title.png</file>
+        <file>res/K_main_scene.jpg</file>
+        <file>res/K_mormal_mode.jpg</file>
+        <file>res/K_main_scene__.png</file>
+        <file>res/K_title.PNG</file>
+        <file>res/K_main_scene__2.png</file>
+        <file>res/K_mormal_mode__.png</file>
+        <file>res/Fail.PNG</file>
+        <file>res/h_mode.PNG</file>
+        <file>res/random_mode.PNG</file>
+        <file>res/blue_btn.PNG</file>
+        <file>res/pink_btn.PNG</file>
+        <file>res/hard_scene.PNG</file>
+        <file>res/NEXT.PNG</file>
+        <file>res/HINT.PNG</file>
+    </qresource>
+</RCC>
