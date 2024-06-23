@@ -15,6 +15,16 @@
 2. **Hard Mode**
    - 共五個關卡，挑戰完當前關卡才能到下一關
    - 具備提示功能<br>
+3. **Random Mode**
+   - 開發中..
+## Play Scene
+- 開始畫面<br>
+![Project Logo](Game%20ScreenShot/main_scene.PNG)
+- 選擇關卡<br>
 ![Project Logo](Game%20ScreenShot/choose_scene.PNG)
+- 普通模式<br>
+![Project Logo](Game%20ScreenShot/normal_mode.PNG)
+- 困難模式<br>
+![Project Logo](Game%20ScreenShot/hard_scene.PNG)
 
 
