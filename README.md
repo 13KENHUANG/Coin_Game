@@ -24,7 +24,6 @@
 ![Project Logo](Game%20ScreenShot/choose_scene.PNG)
 - 普通模式<br>
 ![Project Logo](Game%20ScreenShot/normal_mode.PNG)
-- 困難模式<br>
-![Project Logo](Game%20ScreenShot/hard_scene.PNG)
+
 
 
