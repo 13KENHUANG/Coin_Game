@@ -17,12 +17,11 @@
 - [x] Basic Mode
 - [x] Hard Mode
 ## Implementation
--Customizing QPushButton Object
--Implementing Coin Flip Animation Effect
--Designing 20 Levels of Varying Difficulty
--Game logic implementation
--Package into an executable file
-![image](https://github.com/13KENHUANG/Coin_Game/assets/71273378/89eccfe5-d5bf-4663-8cf3-66c3df78655a)
+- Customizing QPushButton Object<br>
+- Implementing Coin Flip Animation Effect<br>
+- Designing 20 Levels of Varying Difficulty<br>
+- Game logic implementation<br>
+- Package into an executable file<br>
 
 ## Play Scene
 - 開始畫面<br>
