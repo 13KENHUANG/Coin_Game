@@ -14,4 +14,6 @@
    - 具備倒數計時功能
 2. **Hard Mode**
    - 共五個關卡，挑戰完當前關卡才能到下一關
-   - 具備提示功能
+   - 具備提示功能<br>
+![Project Logo](Game%20ScreenShot/hard_scene.png)
+
