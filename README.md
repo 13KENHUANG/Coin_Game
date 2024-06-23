@@ -1,14 +1,6 @@
 # [Project] A Funny Flip Coin Game
 ## Introduction
 *有趣的翻金幣遊戲，需要把所有金幣同時翻正，具有一般關卡與困難關卡*<br>
-## Environment
-- Windows 10*<br>
-- QT 5.15.2*<br>
-- G++ 9.4*<br>
-## Features
-- [x] Basic Mode
-- [x] Hard Mode
-## Implementation
 1. **Basic Mode**
    - 均為4x4關卡，由簡單到困難一共20關，可自由選擇關卡
    - 具備倒數計時功能
@@ -17,6 +9,21 @@
    - 具備提示功能<br>
 3. **Random Mode**
    - 開發中..
+## Environment
+- Windows 10*<br>
+- QT 5.15.2*<br>
+- G++ 9.4*<br>
+## Features
+- [x] Basic Mode
+- [x] Hard Mode
+## Implementation
+-Customizing QPushButton Object
+-Implementing Coin Flip Animation Effect
+-Designing 20 Levels of Varying Difficulty
+-Game logic implementation
+-Package into an executable file
+![image](https://github.com/13KENHUANG/Coin_Game/assets/71273378/89eccfe5-d5bf-4663-8cf3-66c3df78655a)
+
 ## Play Scene
 - 開始畫面<br>
 ![Project Logo](Game%20ScreenShot/main_scene.PNG)
