@@ -8,7 +8,8 @@
 #include <QLabel>
 #include <QSound>
 
-hardScene *hardplay = NULL;
+hardScene   *hardplay   = NULL;
+randomscene *randomplay = NULL;
 ChooseLevelScene::ChooseLevelScene(QWidget *parent)
     : QMainWindow{parent}
 {
@@ -171,6 +172,36 @@ ChooseLevelScene::ChooseLevelScene(QWidget *parent)
     label2->move(this->width()*0.53,this->height()*0.84);
     label2->setAlignment(Qt::AlignHCenter | Qt::AlignVCenter);
     label2->setAttribute(Qt::WA_TransparentForMouseEvents);
+
+
+    //定義connect
+    //定義按下random_mode Btn
+    connect(randomBtn,&MyPushButton::clicked,[=](){
+        randomBtn->setEnabled(false);
+        chooseSound->play();
+        randomBtn->zoom3();
+        QTimer::singleShot(200,this,[=]{
+            randomplay = new randomscene();
+            randomplay->setGeometry(this->geometry());
+            this->hide();
+            randomplay->show();
+
+            //定義random_mode中的back btn
+            connect(randomplay, &randomscene::randomSceneBack,[=]{
+                this->setGeometry(randomplay->geometry());
+                QTimer::singleShot(100,this,[=]{
+                    randomBtn->setEnabled(true);
+                    this->show();
+                    delete randomplay;
+                    randomplay=NULL;
+                });
+            });
+        });
+
+    });
+
+
+
 
 }
 

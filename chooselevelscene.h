@@ -7,6 +7,7 @@
 #include <QWidget>
 #include "playscene.h"
 #include "hardscene.h"
+#include "randomscene.h"
 class ChooseLevelScene : public QMainWindow
 {
     Q_OBJECT

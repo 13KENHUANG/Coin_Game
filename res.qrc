@@ -36,5 +36,6 @@
         <file>res/hard_scene.PNG</file>
         <file>res/NEXT.PNG</file>
         <file>res/HINT.PNG</file>
+        <file>res/random_scene.PNG</file>
     </qresource>
 </RCC>

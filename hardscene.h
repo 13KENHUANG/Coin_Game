@@ -14,7 +14,6 @@ class hardScene:public QMainWindow
     Q_OBJECT
 public:
     int LV = 0;
-
     int Timer_500ms;
 
     hardScene(int level);
@@ -42,6 +41,7 @@ public:
     bool Check_Win(int LV);
     void paintEvent(QPaintEvent *event);
     void timerEvent(QTimerEvent *event);
+    bool tmp = false;
 signals:
     void hardSceneBack();
     void changeLevel(int LV);

@@ -273,8 +273,7 @@ void hardScene::paintEvent(QPaintEvent *event)
 
 void hardScene::timerEvent(QTimerEvent *event)
 {
-    static bool tmp = false;
-    if(event->timerId()==Timer_500ms)
+    if(event->timerId()==Timer_500ms && !tmp)
     {
         if(Check_Win(this->LV))
         {
