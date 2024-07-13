@@ -8,7 +8,7 @@
    - 共五個關卡，挑戰完當前關卡才能到下一關
    - 具備提示功能<br>
 3. **Random Mode**
-   - 開發中..
+   - 6x6 隨機佈置燈號的關卡<br>
 ## Environment
 - Windows 10*<br>
 - QT 5.15.2*<br>
@@ -16,6 +16,7 @@
 ## Features
 - [x] Basic Mode
 - [x] Hard Mode
+- [x] Random Mode
 ## Implementation
 - Customizing QPushButton Object<br>
 - Implementing Coin Flip Animation Effect<br>
